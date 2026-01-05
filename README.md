@@ -163,8 +163,4 @@ This template does not attempt to:
 
 It exists to support **individual, intermittent, long-lived work**.
 
----
 
-## License
-
-Choose a license appropriate to how you intend to share or reuse this template.
