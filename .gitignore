@@ -137,3 +137,20 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# --- North Star / ADHD Stealth Additions ---
+
+# The Chaos Zone: Create a folder called 'scratch' or any file starting 
+# with 'scratch.' to test ideas without them being tracked or committed.
+scratch/
+scratch.*
+
+# ADHD Progress Tracking: If you keep a private 'journal.md' or 
+# 'todo.local.md' in the project, this keeps it out of the repo.
+*.local.md
+session.log
+
+# Fedora / KDE Plasma Specifics
+.directory
+*~
+*.swp
