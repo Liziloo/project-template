@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ESNext", "DOM"],
+    /* The Learning Bridge */
+    "allowJs": true, // Lets you keep writing plain JS
+    "checkJs": true, // Won't harass you with JS errors
+    "noEmit": true, // We'll use a faster runner for dev
+    "strict": false, // Off for now to lower the barrier
+    /* Output & Hygiene */
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "north-star-template",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "High-performance base for ADHD/Narcolepsy solo flow.",
+  "scripts": {
+    "dev": "tsx watch src/index.js",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "Liz",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

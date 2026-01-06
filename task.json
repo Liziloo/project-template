@@ -1,0 +1,15 @@
+{
+  "title": "String",
+  "description": "String",
+  "dueDate": "Date",
+  "priority": {
+    "type": "enum",
+    "values": ["low", "medium", "high"]
+  },
+  "completed": {
+    "type": "boolean",
+    "default": false
+  },
+  "createdAt": "Date",
+  "updatedAt": "Date"
+}
